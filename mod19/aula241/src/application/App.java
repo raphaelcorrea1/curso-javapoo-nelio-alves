@@ -19,7 +19,7 @@ public class App {
 		myCircles.add(new Circle(2.0));
 		myCircles.add(new Circle(3.0));
 
-		System.out.println("Total area: " + totalArea(myCircles));
+		System.out.println("Total area: " + totalArea(myCircles)); // DA ERRO
 	}
 
 	public static double totalArea(List<? extends Shape> list) {
